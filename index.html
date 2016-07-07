@@ -411,14 +411,14 @@
 					}}}
 
 				function search(){
-		 			url = "http://api.petfinder.com/pet.find?format=json&key=326aa49dbfec3060d0ebec0d9ff3359b" + location + animal + breed + sex + age + count + "&callback=?";
+		 			url = "https://api.petfinder.com/pet.find?format=json&key=326aa49dbfec3060d0ebec0d9ff3359b" + location + animal + breed + sex + age + count + "&callback=?";
 		 			//alert can be commented, it's just to show that the variable is truly set correctly
 
 					$.getJSON(url, toScreen);
 				}
 
 				$("#more").on("click", function(event) {
-		 			url = "http://api.petfinder.com/pet.find?format=json&key=326aa49dbfec3060d0ebec0d9ff3359b" + location + animal + breed + sex + age + count + offset + "&callback=?";
+		 			url = "https://api.petfinder.com/pet.find?format=json&key=326aa49dbfec3060d0ebec0d9ff3359b" + location + animal + breed + sex + age + count + offset + "&callback=?";
 		 			//alert can be commented, it's just to show that the variable is truly set correctly
 
 					$.getJSON(url, toScreen);
@@ -428,7 +428,7 @@
 					//resets the photo element so that you are getting only the selected results
 					$('#photos-wrap').html('');
 					document.getElementById("searchAgain").removeAttribute("hidden");
-					url = "http://api.petfinder.com/pet.find?format=json&key=326aa49dbfec3060d0ebec0d9ff3359b" + location + animal + breed + sex + age + count + "&callback=?";
+					url = "https://api.petfinder.com/pet.find?format=json&key=326aa49dbfec3060d0ebec0d9ff3359b" + location + animal + breed + sex + age + count + "&callback=?";
 		 			//alert can be commented, it's just to show that the variable is truly set correctly
 
 					$.getJSON(url, toScreen);
