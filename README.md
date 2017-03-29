@@ -1,10 +1,5 @@
 # riveraeu.github.io
-Github pages hosting for PawPatrol Pet adoption website
 
-Paw Patrol Pet Adoption Project 
+Web based application for pet adoption, using https://www.petfinder.com/developers/api-docs API
 
-My first real website, please do not judge on the file structure thats all I knew at the time.
-
-Visit site at:
-
-https://riveraeu.github.io
+Main purpose of this application was to work on web development skills and gain experience with API's
